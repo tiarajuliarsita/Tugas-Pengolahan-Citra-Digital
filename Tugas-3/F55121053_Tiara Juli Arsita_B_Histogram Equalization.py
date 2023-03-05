@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 # membaca citra
 image = cv2.imread('image04.png', 0)
 
-# membuat histogram
+# membuat  histogram
 hist, bins = np.histogram(image.flatten(), 256, [0, 256])
 
 # menampilkan histogram sebelum perbaikan

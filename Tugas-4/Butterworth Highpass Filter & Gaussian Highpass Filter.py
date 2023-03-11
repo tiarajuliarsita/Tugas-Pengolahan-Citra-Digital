@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 # Load image in grayscale mode
 img = cv2.imread('image04.png', cv2.IMREAD_GRAYSCALE)
 
-# Butterworth highpass filter
+# Butterworth  highpass filter
 def butterworth_highpass_filter(img, cutoff, order):
     M, N = img.shape
     center = (M//2, N//2)

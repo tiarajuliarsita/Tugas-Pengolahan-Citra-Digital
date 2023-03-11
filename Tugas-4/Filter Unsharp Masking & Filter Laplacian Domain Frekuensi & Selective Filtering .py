@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-# Load image in grayscale mode
+# Load  image in grayscale mode
 img = cv2.imread('image01.png', cv2.IMREAD_GRAYSCALE)
 
 # Unsharp masking filter

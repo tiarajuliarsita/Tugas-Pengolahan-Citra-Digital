@@ -1,6 +1,6 @@
 import cv2
 
-# membaca citra asli
+# membaca  citra asli
 img = cv2.imread('image01.png')
 
 # pengolahan citra dengan median filter
@@ -12,6 +12,7 @@ max = cv2.dilate(img, kernel)
 
 # pengolahan citra dengan min filter
 min = cv2.erode(img, kernel)
+
 
 # menampilkan hasil pengolahan citra
 cv2.imshow('Citra Asli', img)

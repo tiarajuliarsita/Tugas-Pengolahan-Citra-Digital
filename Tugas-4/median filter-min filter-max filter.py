@@ -1,3 +1,5 @@
+# Tiara Juli Arsita
+# F55121053
 import cv2
 
 # membaca  citra asli
